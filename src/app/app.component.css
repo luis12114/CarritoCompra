@@ -1,0 +1,20 @@
+.fa{
+    font-size: 26px !important;
+}
+
+.fix-margin{
+    margin-bottom: -4px;
+}
+
+.fix-font{
+    font-size: 15px !important;
+}
+.inputFix:focus,
+.inputFix:active {
+ border: none;
+ outline: none !important;
+}
+
+.marginFix{
+    margin-top: -3px;
+}

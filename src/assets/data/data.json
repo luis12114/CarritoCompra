@@ -1,0 +1,32 @@
+[
+    {
+        "id":"1",
+        "item_name":"Laptop",
+        "short_description":"Laptop negra hp",
+        "quantity":1,
+        "price_without_tax":200,
+        "tax":5.51,
+        "shipping_fee":1.60
+
+    },
+    {
+        "id":"2",
+        "item_name":"iphone",
+        "short_description":"iphone 15 dorado",
+        "quantity":1,
+        "price_without_tax":500,
+        "tax":3.51,
+        "shipping_fee":2.60
+
+    },
+    {
+        "id":"3",
+        "item_name":"airpods",
+        "short_description":"airpods pro 2 generacion",
+        "quantity":1,
+        "price_without_tax":300,
+        "tax":6.51,
+        "shipping_fee":1.90
+
+    }
+]
