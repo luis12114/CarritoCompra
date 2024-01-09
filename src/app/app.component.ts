@@ -37,21 +37,22 @@ export class AppComponent implements OnInit {
   }
 
   public increment(filter: any) {
-    this.numItem = this.numItem + 1;
+    this.numItem = 1;
     let datas = this.data.filter((todo: any) => todo.id == filter);
     datas[0].quantity = datas[0].quantity + this.numItem;
     this.count(this.data);
   }
 
   public decrement(data: any) {
-    if (this.numItem == 0) {
+    let comprobador = this.data.filter((todo: any) => todo.id == data);
+    if ( comprobador[0].quantity== 0) {
       this.numItem == 0;
       let datas = this.data.filter((todo: any) => todo.id == data);
       datas[0].quantity = this.numItem;
       this.count(this.data);
     } else {
       let datas = this.data.filter((todo: any) => todo.id == data);
-      datas[0].quantity = datas[0].quantity + this.numItem - 1;
+      datas[0].quantity = datas[0].quantity -1;
       this.count(this.data);
     }
   }
